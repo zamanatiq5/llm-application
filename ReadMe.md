@@ -37,4 +37,9 @@ OR
 
 'git commit -m "add commit message here"'
 
+5. List all commit
+
+'git log --all'
+
+
 
