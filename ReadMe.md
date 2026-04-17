@@ -39,9 +39,10 @@ OR
 
 5. List all commit
 
-This was added from the web.
-
 'git log --all'
+
+
+This was added from the web.
 
 
 
