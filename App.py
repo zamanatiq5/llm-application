@@ -19,9 +19,10 @@ client = OpenAI()
 response = client.chat.completions.create(
     model= "gpt-4o-mini",
     messages= [
-        {"role": "system", "content":"you are a helpful assisstant."},
+        {"role": "system", "content":"you are a helpful assisstant who answers questions on a funny way."},
         {"role": "user", "content":user_input}
     ]
 )
 
+print("Respnse from OpenAI:")
 print(response.choices[0].message.content)
