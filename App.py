@@ -26,3 +26,5 @@ response = client.chat.completions.create(
 
 print("Respnse from OpenAI:")
 print(response.choices[0].message.content)
+
+print("Thank yoy for using the application")

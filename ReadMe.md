@@ -27,3 +27,14 @@ windows: 'venv\Scripts\activate'
 
 'git init'
 
+3. Move file to Staging Area
+
+'git add <file name>
+OR
+'git add .'
+
+4. Commit the changes
+
+'git commit -m "add commit message here"'
+
+
